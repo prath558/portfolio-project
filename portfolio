@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+   
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <img src="Hero.jpg" alt="Hero Image" class="hero-img">
+        </div>
+        <div class="intro">
+            <h1>Prathamesh Poul</h1>
+            <p class="tagline">Web Developer | Designer | Problem Solver</p>
+            <p>Welcome to my portfolio website. Here you can find my work, skills, and more.</p>
+        </div>
+    </section>
+
+   
+    <footer>
+        <p>&copy; 2025 Prathamesh Poul. All rights reserved.</p>
+    </footer>
+</body>
+</html>
