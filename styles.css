@@ -1,18 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
-    color: #333;
+    color: #201f1d;
 }
-
 
 nav ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 10px;
-    background-color: #333;
+    background-color: #696969;
 }
 
 nav ul li {
@@ -28,11 +33,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #333;
+    color: #4f4d4d;
     background-color: #e9ed0f;
     border-radius: 4px;
 }
-
 
 header {
     text-align: center;
@@ -51,16 +55,14 @@ section {
     animation: slideIn 1.5s ease-in-out;
 }
 
-
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #d3e437;
     color: white;
     margin-top: 20px;
     animation: fadeInUp 2s ease-in-out;
 }
-
 
 @keyframes fadeIn {
     from {
@@ -93,23 +95,8 @@ footer {
     }
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-}
-
-
 header {
-    background-color: #333;
+    background-color: #e3cf1c;
     padding: 10px 0;
 }
 
@@ -133,12 +120,10 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-
 #home {
     text-align: center;
     padding: 50px 0;
 }
-
 
 .hero {
     margin-bottom: 30px;
@@ -152,7 +137,6 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-
 .intro h1 {
     font-size: 36px;
     margin-bottom: 10px;
@@ -161,23 +145,41 @@ nav ul li a:hover {
 .tagline {
     font-size: 22px;
     font-weight: bold;
-    color: #555;
+    color: #f60404;
     margin-bottom: 20px;
 }
 
 .intro p {
     font-size: 18px;
-    color: #333;
+    color: #524e4e;
 }
-
 
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #333;
+    background-color: #b6aa09;
     color: white;
 }
 
 footer p {
     font-size: 16px;
+}
+
+.project img {
+    width: 80%; 
+    max-width: 400px; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin: 10px 0;
+}
+
+.hero-img {
+    width: 80%; 
+    max-width: 400px;
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    display: block; 
 }
